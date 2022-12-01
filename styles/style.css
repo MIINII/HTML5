@@ -46,7 +46,6 @@ body {
 .main {
   background: lightgreen;
   height: 50vh;
-  border: 1px solid red;
   display: flow-root;
   padding: 0 15px;
 }
