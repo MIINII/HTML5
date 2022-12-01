@@ -9,21 +9,49 @@ body {
     'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', sans-serif;
   /* margin: 0; */
-  font-family: 100;
 }
 
+/* layout */
+.header,
+.visual,
+.main,
+.slogan,
+.footer-inner {
+  width: 940px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* header */
 .header {
   background: pink;
+  height: 15vh;
+  padding: 0 30px;
 }
+
+/* visaul */
 .visual {
   background: orange;
+  height: 10vh;
 }
+
+/* main */
 .main {
   background: lightgreen;
+  height: 50vh;
 }
+
+/* slogan */
 .slogan {
   background: skyblue;
+  height: 10vh;
 }
+
+/* footer */
 .footer {
   background: gray;
+}
+.footer-inner {
+  height: 15vh;
+  background-color: rgb(43,84,43);
 }
