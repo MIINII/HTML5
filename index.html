@@ -20,9 +20,25 @@
   <body>
     <header class="header">
       <h1 class="logo">
-        <a href="./index-complete.html"><img src="./assets/logo.png" alt="main_logo" /></a>
+        <!-- reFlow => rePaint -->
+        <a href="./index-complete.html"
+          ><img src="./assets/logo.png" alt="web cafe mainLogo" width="165" height="35"
+        /></a>
       </h1>
+
+      <!-- ul.member>li*5>span[aria-hidden="true"]{:}+a[href="/"] -->
+      <ul class="member">
+        <li><a href="/">홈</a></li>
+        <li><span aria-hidden="true">:</span><a href="/">로그인</a></li>
+        <li><span aria-hidden="true">:</span><a href="/">회원가입</a></li>
+        <li><span aria-hidden="true">:</span><a href="/">사이트맵</a></li>
+        <li><span aria-hidden="true">:</span><a href="/">english</a></li>
+      </ul>
     </header>
+
+    홈
+    로그인
+
     <div class="visual">비주얼</div>
     <main class="main">
       <div class="group group1">그룹1</div>
