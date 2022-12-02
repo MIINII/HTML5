@@ -10,7 +10,15 @@
   box-sizing: border-box;
 }
 
+/* link style */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* main text */
 body {
+  color: #212121;
   background: #ccc;
   font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue',
     'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
@@ -39,7 +47,6 @@ body {
 
 /* logo */
 .logo {
-  background-color: rgb(129, 58, 34);
   position: absolute;
   top: 45px;
   left: 60px;
@@ -48,6 +55,24 @@ body {
 /* text link */
 .member {
   background-color: rgb(130, 154, 209);
+  text-align: right;
+}
+
+/* 부모로부터 상속받아서 공백문자는 0!! */
+.member li {
+  display: inline-block;
+  /* background-color: rgb(195, 50, 37); */
+}
+
+.member a {
+  display: inherit;
+  background-color: coral;
+  padding: 6px 10px;
+}
+
+/* 공백의 사이즈가 보통 4px */
+.divider {
+  margin-right: 4px;
 }
 
 /* visaul */
