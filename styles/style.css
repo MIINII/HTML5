@@ -56,6 +56,7 @@ body {
 .member {
   background-color: rgb(130, 154, 209);
   text-align: right;
+  padding: 4px 0;
 }
 
 /* 부모로부터 상속받아서 공백문자는 0!! */
@@ -64,10 +65,16 @@ body {
   /* background-color: rgb(195, 50, 37); */
 }
 
+/* 마지막 li요소에 포함된 a 요소를 선택하여 오른쪽 패딩 0으로 재정의 */
+.member li:last-child a {
+  padding-right: 0;
+}
+
 .member a {
   display: inherit;
   background-color: coral;
   padding: 6px 10px;
+  text-transform: uppercase;
 }
 
 /* 공백의 사이즈가 보통 4px */
